@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+@media (max-width: 768px) {
+}
+
+.course-card {
+  width: 100%;
+  overflow: auto;
+}
+.course-heading-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-heading-card-courseTitle {
+}
+.course-heading-card-duration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.course-para-card {
+}
+.course-para-card-description {
+}
+.course-tags-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+.tag-card {
+  background-color: #dce3e9;
+  margin: 10px;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-tags-card-tagsname {
+  font-size: 15px;
+}

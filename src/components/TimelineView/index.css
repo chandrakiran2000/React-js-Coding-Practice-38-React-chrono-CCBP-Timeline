@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.bg-card {
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: roboto;
+}
+.main-heading-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-journey-heading {
+  color: #1e293b;
+}
+
+.ccbp-4o-heading {
+  color: #2b237c;
+}
+
+.chrono-hw {
+  width: 80%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .chrono-hw {
+    width: 80vw;
+    height: 100vh;
+  }
+}
