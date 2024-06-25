@@ -15,11 +15,19 @@
 .my-journey-heading {
   color: #1e293b;
 }
-
+.ccbp-4o-heading-span {
+  display: none;
+}
 .ccbp-4o-heading {
   color: #2b237c;
+  text-align: center;
 }
-
+.chrono-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 .chrono-hw {
   width: 80%;
   height: 100%;
